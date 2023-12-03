@@ -1,0 +1,20 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .title {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: red;
+    width: 15px;
+  }
+  
+  .title::first-line {
+    word-spacing: 100vw;
+  }
+  

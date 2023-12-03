@@ -1,0 +1,12 @@
+//para cada componente 
+
+//importa cada layout
+//@import '../styles/nombre-de-fichero.scss';
+.tool{
+    display: none;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px grey;
+}
+.question:hover ~ .tool{
+    display: block;
+} 

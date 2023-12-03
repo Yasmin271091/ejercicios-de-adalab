@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculadora</title>
+  </head>
+  <body>
+    <form action="">
+      <label class="form_label" for="numberA">Primer numero</label>
+      <input
+        type="number"
+        name="nameA"
+        id="numberA"
+        class="js-num1 form__input-text display-block"
+      />
+      <label class="form_label" for="numberB">Segundo numero</label>
+      <input
+        type="number"
+        name="nameB"
+        id="numberA"
+        class="js-num2 display-block"
+      />
+      <label class="p-0 display block mb-1" for=""
+        >Resultado:
+        <span class="js-result text--bold"></span>
+      </label>
+      <input type="submit" class="js-btn-sum form__btn m-0" value="sumar" />
+      <input type="submit" class="js-btn-div form__btn m-0" value="Dividir" />
+      
+      <input type="button" class="js-btn-reset form__btn m-0" value="reset" />
+    </form>
+    <script src="./main.js"></script>
+  </body>
+</html>

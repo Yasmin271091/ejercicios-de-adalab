@@ -1,0 +1,7 @@
+.hidden{
+    display: none;
+}
+.danger {
+    background-color: beige;
+    color: brown;
+}

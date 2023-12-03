@@ -1,0 +1,27 @@
+.col2 {
+    position: relative;
+    padding-bottom: 1.5em;
+  }
+  
+  .form__error {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    color: var(--orange);
+  }
+  
+  /* MENU */
+  
+  .menu .menu__list {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    list-style-type: none;
+    margin-bottom: 1.5em;
+  }
+  
+  .enlace{
+    color:red;
+    text-decoration: none;
+  }
+  

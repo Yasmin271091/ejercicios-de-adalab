@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content__grid{
+    width: 80%;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.box{
+    border: 1px solid blue;
+}
